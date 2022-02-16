@@ -20,6 +20,7 @@ public class main {
         sum obj = new sum(input1,input2);
         subtract obj2 = new subtract(input1, input2);
         multiply obj3 = new multiply(input1, input2);
+        divide obj4 = new divide(input1, input2);
 
         switch (input3) {
             case 1:
@@ -40,8 +41,9 @@ public class main {
                 break;
 
             case 4:
-                // feature coming
-                // System.out.println(obj4.divide);
+                // feature added
+                System.out.println("Division performed.");
+                System.out.println("The result is " + obj4.division());
                 break;
 
             default:
