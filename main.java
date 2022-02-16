@@ -19,6 +19,7 @@ public class main {
         // creating contructors:
         sum obj = new sum(input1,input2);
         subtract obj2 = new subtract(input1, input2);
+        multiply obj3 = new multiply(input1, input2);
 
         switch (input3) {
             case 1:
@@ -33,8 +34,9 @@ public class main {
                 break;
 
             case 3:
-                // feature coming
-                // System.out.println(obj3.multiply);
+                // feature added
+                System.out.println("Multiplication performed.");
+                System.out.println("The result is " + obj3.multiplication());
                 break;
 
             case 4:
