@@ -1,5 +1,5 @@
-public class subtract {
-
+public class subtract{
+    
     double a;
     double b;
 

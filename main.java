@@ -28,6 +28,7 @@ public class main {
 
             case 2:
                 // feature added
+                System.out.println("Subtraction performed.");
                 System.out.println("The result is " + obj2.subtraction());
                 break;
 
