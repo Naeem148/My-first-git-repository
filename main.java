@@ -18,6 +18,7 @@ public class main {
                 
         // creating contructors:
         sum obj = new sum(input1,input2);
+        subtract obj2 = new subtract(input1, input2);
 
         switch (input3) {
             case 1:
@@ -26,8 +27,8 @@ public class main {
                 break;
 
             case 2:
-                // feature coming
-                // System.out.println(obj2.subtract);
+                // feature added
+                System.out.println("The result is " + obj2.subtraction());
                 break;
 
             case 3:
